@@ -315,11 +315,11 @@
                 Berapa biaya administrasi di Indocair?
             </button>
             <div id="faq4" class="faq-answer">
-                - Transaksi Dibawah 20$ → <span class="text-secondary">Flat Rp25.000</span><br>
+                - Transaksi dibawah 21$ → <span class="text-secondary">Flat Rp25.000</span><br>
                 - $21 – $100 → <span class="text-secondary">4% </span><br>
-                - $101 = $300 → <span class="text-secondary">3.5%</span></p>
-                - $301 = $500 → <span class="text-secondary">3%</span></p>
-                - $501 = $1000 → <span class="text-secondary">2.5%</span></p>
+                - $101 - $300 → <span class="text-secondary">3.5%</span></p>
+                - $301 - $500 → <span class="text-secondary">3%</span></p>
+                - Transaksi diatas $500 → <span class="text-secondary">2.5%</span></p>
             </div>
         </div>
 
@@ -497,7 +497,7 @@
         fee = idr * 0.035;
       } else if (usd <= 500) {
         fee = idr * 0.03;
-      } else if (usd <= 1000) {
+      } else if (usd <= 10000) {
         fee = idr * 0.025;
       }
 
@@ -651,3 +651,4 @@
 </body>
 
 </html>
+
