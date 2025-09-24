@@ -58,6 +58,33 @@
     transform: translateY(0);
     }
 
+
+
+
+        .tiktok-float {
+          position: fixed;
+          top: 90%;
+          right: 20px;
+          transform: translateY(-50%);
+          background: black;
+          border-radius: 50%;
+          box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+          padding: 12px;
+          transition: all 0.3s ease;
+          z-index: 1000;
+        }
+        
+        .tiktok-float img {
+          width: 32px;
+          height: 32px;
+          display: block;
+        }
+        
+        .tiktok-float:hover {
+          transform: translateY(-50%) scale(1.1);
+          box-shadow: 0 6px 14px rgba(0,0,0,0.3);
+        }
+
     </style>
 
 
@@ -368,6 +395,18 @@
                 </div>
             </div>
 
+
+
+            
+            <!--Indocair icon floating-->
+        <a href="https://www.tiktok.com/@indocair_exchanger?_t=ZS-8zzSG2zZvFK&_r=1" target="_blank" class="tiktok-float">
+            <img src="/assets/Real TikTok Logo.jpg" alt="TikTok" />
+        </a>
+
+
+
+            
+
             <div class="text-center mt-8">
                 <a href="https://api.whatsapp.com/send?phone=6281295149423&text=Halo%20IndoCair&source=&data=" class="bg-secondary px-8 py-3 rounded-full hover:bg-opacity-70">Top Up Sekarang</a>
             </div>
@@ -651,5 +690,6 @@
 </body>
 
 </html>
+
 
 
